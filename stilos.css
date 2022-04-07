@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.titulo{
+    width: 100%;
+    background-position: center;
+    color: orange;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 100px;
+}
+.subtitulo{
+    width: 100%;
+    text-align: center;
+    color: orange;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 4em;
+
+}
+.texto{
+    width: 100%;
+    height:18rem ;
+    font-family:  'Quintessential', cursive;
+    font-size: 4rem;
+}
+.nombres{
+    width: 100%;
+    height:18rem ;
+    font-family:  'Quintessential', cursive;
+    font-size: 4rem;
+    text-align: center; 
+    margin-top: 100rem;
+    animation-name: desliz;
+    animation-duration: 3s;
+}
+    @keyframes desliz {
+        from {
+            margin-left: 100%;
+            width: 300%;
+          }
+          to {
+            margin-left: 0%;
+            width: 100%;
+          }
+    }
+
+
+
+
+
