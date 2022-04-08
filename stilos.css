@@ -53,7 +53,7 @@ body{
     }
     .rounded-circle:hover{
     transform: scale(1);
-    transition: 08s;
+    transition: 05s;
     filter: sepia(2);
     margin-top: 400px;
     }
